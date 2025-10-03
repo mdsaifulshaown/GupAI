@@ -1,0 +1,181 @@
+# =================================
+# GupAI Chatbot - Git Ignore Rules
+# =================================
+
+# DEPENDENCIES
+# =================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ENVIRONMENT VARIABLES & SECRETS
+# ================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# API Keys and sensitive data
+*.key
+*.pem
+*.crt
+config.json
+secrets.json
+credentials.json
+
+# PHP SPECIFIC
+# =================
+# Composer dependencies
+/vendor/
+composer.lock
+composer.phar
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# NODE.JS SPECIFIC
+# =================
+# Dependencies
+/node_modules/
+/.npm
+/.yarn
+/.pnp
+
+# Build outputs
+/dist/
+/build/
+/out/
+
+# Runtime data
+/pids
+/.pid
+/.seed
+*.pid.lock
+
+# Coverage directory
+/coverage/
+/.nyc_output
+
+# OPERATING SYSTEM FILES
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# IDE AND EDITOR FILES
+# =======================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-*
+sftp-config.json
+
+# LOGS
+# ========
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# CACHE DIRECTORIES
+# ====================
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# TEMPORARY FILES
+# ==================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.save
+
+# BUILD OUTPUTS
+# =================
+/dist/
+/build/
+/out/
+/target/
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+
+# RUNTIME DATA
+# ==============
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# COVERAGE REPORTS
+# ==================
+coverage/
+.nyc_output
+*.lcov
+
+# MISC
+# =======
+*.tgz
+*.tar.gz
+.yarn-integrity
+.eslintcache
+
+# DATABASE FILES
+# =================
+*.db
+*.sqlite
+*.sqlite3
+
+# UPLOADED FILES
+# =================
+/uploads/
+/temp/
+/storage/
+
+# DOCKER
+# =========
+.docker/
+docker-compose.override.yml
+
+# SSL CERTIFICATES
+# =================
+*.csr
+*.cer
+*.der
+*.pfx
